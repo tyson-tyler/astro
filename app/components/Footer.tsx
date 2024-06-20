@@ -6,7 +6,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="w-full flex justify-around fixed h-20 bottom-0 z-[50] bg-slate-400">
-      <div className="flex justify-around items-center">
+      {/* <div className="flex justify-around items-center">
         <div className="flex justify-center items-center">
           <Timer className="w-7 h-7 mr-3" />
           <span className="text-bold lg:text-lg text-sm hidden md:flex">
@@ -24,10 +24,9 @@ const Footer = () => {
           <span className="text-semibold lg:text-lg text-sm hidden md:flex">
             100% Practical
           </span>
-        </div>
-        <div className="flex flex-col justify-center items-center ml-5">
-          <DialogDemo />
-        </div>
+        </div> */}
+      <div className="flex flex-col justify-center items-center ml-5">
+        <DialogDemo />
       </div>
     </div>
   );

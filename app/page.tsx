@@ -19,18 +19,25 @@ const page = () => {
   return (
     <div>
       <Banner />
-      <Video />
+      {/* <Video />
       <Seven />
 
       <Hello />
-      <Pag />
+     */}
 
-      <CountdownTimer initialSeconds={259200} />
-      <Fun />
-      <Red />
-      <About />
+      <CountdownTimer initialSeconds={2500} />
+      {/* <Fun />
+      // 
+      
       <Videos />
+      // 
+      */}
+      {/* <Pag /> */}
+      <Fun />
+
+      <About />
       <Bul />
+
       <Footer />
     </div>
   );

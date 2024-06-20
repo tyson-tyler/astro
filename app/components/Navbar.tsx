@@ -9,15 +9,9 @@ const Navbar = () => {
   return (
     <div className="w-full fixed top-0 z-[50] h-34 flex  items-center justify-between px-2 dark:bg-gray-900 dark:text-white shadow-md text-black">
       <div>
-        <Image
-          width={54}
-          height={54}
-          className="object-cover"
-          alt="hello"
-          src={"/logo.png"}
-        />
+        <h1 className="text-bold m-4">Kamakshi Tarot Academy</h1>
       </div>
-      <div>
+      {/* <div>
         <ul className="justify-around mx-2 items-center hidden md:flex">
           <li className="mx-2 cursor-pointer">Home</li>
           <li className="mx-2 cursor-pointer">About</li>
@@ -25,7 +19,7 @@ const Navbar = () => {
           <li className="mx-2 cursor-pointer">Pricing</li>
           <li className="mx-2 cursor-pointer">Contact</li>
         </ul>
-      </div>
+      </div> */}
       <div className=" justify-center items-center hidden md:flex ">
         <DialogDemo />
       </div>
