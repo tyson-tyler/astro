@@ -22,10 +22,9 @@ const page = () => {
       {/* <Video />
       <Seven />
 
-      <Hello />
+     
      */}
 
-      <CountdownTimer initialSeconds={2500} />
       {/* <Fun />
       // 
       
@@ -33,6 +32,7 @@ const page = () => {
       // 
       */}
       {/* <Pag /> */}
+      <Hello />
       <Fun />
 
       <About />

@@ -1,4 +1,5 @@
 import { DialogDemo } from "@/components/model";
+import CountdownTimer from "@/components/try";
 import { Button } from "@/components/ui/button";
 import { CalendarIcon, Radio, Timer } from "lucide-react";
 import React from "react";
@@ -25,7 +26,9 @@ const Footer = () => {
             100% Practical
           </span>
         </div> */}
-      <div className="flex flex-col justify-center items-center ml-5">
+
+      <div className="flex  justify-evenly items-center ml-5 mr-6 ">
+        {/* <CountdownTimer initialSeconds={2500} /> */}
         <DialogDemo />
       </div>
     </div>

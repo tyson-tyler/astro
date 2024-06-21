@@ -30,9 +30,9 @@ const CountdownTimer = ({ initialSeconds }: any) => {
   const timeLeft = formatTime(time);
 
   return (
-    <div className="flex flex-col items-center justify-center mt-12 h-screen  dark:bg-black   bg-no-repeat bg-center bg-origin-border bg-gray-100 ">
-      <div className="bg-white flex flex-col justify-center items-center h-[50vh] w-full dark:bg-gray-900 dark:text-white text-black p-6 rounded-lg shadow-lg">
-        <h1 className="text-4xl font-bold mb-4">Limited Offer</h1>
+    <div className="flex flex-col items-center justify-center mt-12   dark:bg-black   bg-no-repeat bg-center bg-origin-border  ">
+      <div className="flex  items-center  w-full  p-6 rounded-lg shadow-lg">
+        <h1 className="text-2xl font-bold mb-4">Limited Offer</h1>
         <div className="text-3xl flex space-x-4">
           <div className="text-center">
             <p>{timeLeft.days}</p>

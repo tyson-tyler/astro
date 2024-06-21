@@ -8,12 +8,12 @@ const Banner = () => {
       <div className="w-full rounded-lg overflow-hidden flex">
         <section className="w-full flex-center flex-col mt-6 mb-[30px]">
           <h1 className="head_text text-center  pt-[200px] dark:text-white text-black">
-            <span className="dark:text-white text-center text-black">
-              Traot
+            <span className="dark:text-white text-center text-black text-[100px]">
+              Tarot
             </span>
             <br className="max-md:hidden" />
-            <span className="usespan ml-2 text-center">
-              Card Reading Workshop
+            <span className="usespan ml-2 text-7xl text-center">
+              Card Reading Free Workshop
             </span>
           </h1>
           {/* 

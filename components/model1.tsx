@@ -1,5 +1,4 @@
 "use client";
-import Page from "@/app/sign-up/[[...sign-up]]/page";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -10,17 +9,21 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+
+import { useState } from "react";
 
 export function DialogDemo() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className="text-xl py-8 animate-bounce">
+        <Button className="text-xl animate-bounce">
           Book your free Seat Now
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[525px] ">
-        {/* <DialogHeader>
+      <DialogContent className="sm:max-w-[425px]">
+        <DialogHeader>
           <DialogTitle>Book your free Seat Now</DialogTitle>
           <DialogDescription>Book your free Seat Now</DialogDescription>
         </DialogHeader>
@@ -56,8 +59,7 @@ export function DialogDemo() {
         </div>
         <DialogFooter>
           <Button>Reserver Seat Now</Button>
-        </DialogFooter> */}
-        <Page />
+        </DialogFooter>
       </DialogContent>
     </Dialog>
   );
